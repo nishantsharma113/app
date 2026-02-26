@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>QuizMaster App Updates</title>
+    <item>
+        <title>Version 1.1.0</title>
+        <description>
+          - Added new quiz categories
+          - Improved performance
+          - Fixed minor bugs
+        </description>
+        <pubDate>Thu, 26 Feb 2026 14:00:00 +0000</pubDate>
+        <!-- The URL where the user can download the update -->
+        <enclosure 
+            url="https://github.com/nishantsharma113/app/raw/refs/heads/main/quiz_app.apk" 
+            sparkle:version="1.1.0" 
+            sparkle:os="android" />
+    </item>
+
+    <!-- Example of a Critical Update -->
+    <item>
+        <title>Version 1.0.5 (Critical Security Patch)</title>
+        <description>Security update. Please update immediately.</description>
+        <enclosure 
+            url="https://github.com/nishantsharma113/app/raw/refs/heads/main/quiz_app.apk" 
+            sparkle:version="1.0.5" 
+            sparkle:os="android" />
+        <sparkle:tags> 
+            <sparkle:criticalUpdate /> 
+        </sparkle:tags> 
+    </item>
+  </channel>
+</rss>
